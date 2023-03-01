@@ -2,6 +2,10 @@
   a {
     color: rgb(0, 113, 133);
     font-size: 1rem;
+    transition: color 0.15s;
+  }
+  a:hover {
+    color: rgb(196, 85, 38);
   }
 
   strong {
@@ -14,6 +18,13 @@
     border: none;
     border-radius: 20px;
     font-size: 1rem;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .add-to-cart-button:hover {
+    background-color: rgb(255, 182, 23);
+  }
+  .add-to-cart-button:active {
+    opacity: 0.3;
   }
 
   .buy-now-button {
@@ -23,7 +34,14 @@
     border-radius: 20px;
     font-size: 1rem;
     margin-left: 10px;
+    transition: background-color 0.15s, opacity 0.15s;
   }
+.buy-now-button:hover {
+  background-color: rgb(255, 134, 28);
+}
+.buy-now-button:active {
+  opacity:0.3;
+}
 </style>
 
 <a href="#">Back to Amazon</a>
