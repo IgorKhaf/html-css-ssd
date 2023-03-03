@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.label {
+  font-size: 0.8rem;
+  color: rgb (150, 150, 150);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.email {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 25px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.text {
+  font-size: 0.75rem;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.agree-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+}
