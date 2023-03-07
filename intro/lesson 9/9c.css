@@ -1,0 +1,9 @@
+.border {
+  border: 1px solid gray;
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.text {
+  font-family: Arial;
+}
