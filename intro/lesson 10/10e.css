@@ -1,0 +1,51 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card {
+  width: 200px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+  display: inline-block;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.name {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+.friends {
+  margin-top: 2px;
+}
+.friend-pic,
+.friends-number {
+  display: inline-block;
+  vertical-align: middle;
+}
+.friend-pic {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left:8px;
+}
+.friends-number{
+  color: rgb(100, 100, 100);
+  margin-left:2px;
+}
+button {
+  background-color: rgb(24, 119, 242);
+  color:white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left:8px;
+  margin-bottom: 10px;
+  margin-top:10px;
+
+}
