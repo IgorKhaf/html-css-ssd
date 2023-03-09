@@ -13,33 +13,30 @@
       .search-bar {
         display: block;
       }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+      }
       .thumnail {
-        width: 300px;
+        width: 100%;
       }
 
-      .video-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-      }
       .thumnail-box {
         margin-bottom: 12px;
       }
-      .profile-image {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
+      .description-box {
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
+
       .chanel-picture {
         width: 40px;
         border-radius: 50%;
       }
-      .video-text {
-        display: inline-block;
-        width: 200px;
-        vertical-align: top;
-      }
+
       p {
         font-family: "Roboto", Arial;
         margin-top: 0;
@@ -65,35 +62,109 @@
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
-    <div class="video-preview">
-      <div class="thumnail-box">
-        <img class="thumnail" src="./thumnails/thumbnail-1.webp" />
-      </div>
-      <div class="description-box">
-        <div class="profile-image">
-          <img class="chanel-picture" src="./profile-images/channel-1.jpeg" />
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumnail-box">
+          <img class="thumnail" src="./thumnails/thumbnail-1.webp" />
         </div>
-        <div class="video-text">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          <p class="video-author">Marques Brownlee</p>
-          <p class="video-stats">3.4M views &middot; 6 months ago</p>
+        <div class="description-box">
+          <div class="profile-image">
+            <img class="chanel-picture" src="./profile-images/channel-1.jpeg" />
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &middot; 6 months ago</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="video-preview">
-      <div class="thumnail-box">
-        <img class="thumnail" src="./thumnails/thumbnail-2.webp" />
-      </div>
-      <div class="description-box">
-        <div class="profile-image">
-          <img class="chanel-picture" src="./profile-images/channel-2.jpeg" />
+
+      <div class="video-preview">
+        <div class="thumnail-box">
+          <img class="thumnail" src="./thumnails/thumbnail-2.webp" />
         </div>
-        <div class="video-text">
-          <p class="video-title">Try Not To Laugh Challenge #9</p>
-          <p class="video-author">Markiplier</p>
-          <p class="video-stats">19M views &middot; 4 years ago</p>
+        <div class="description-box">
+          <div class="profile-image">
+            <img class="chanel-picture" src="./profile-images/channel-2.jpeg" />
+          </div>
+          <div class="video-text">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumnail-box">
+          <img class="thumnail" src="./thumnails/thumbnail-3.webp" />
+        </div>
+        <div class="description-box">
+          <div class="profile-image">
+            <img class="chanel-picture" src="./profile-images/channel-3.jpeg" />
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">12M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumnail-box">
+          <img class="thumnail" src="./thumnails/thumbnail-4.webp" />
+        </div>
+        <div class="description-box">
+          <div class="profile-image">
+            <img class="chanel-picture" src="./profile-images/channel-4.jpeg" />
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="video-author">Veritasium</p>
+            <p class="video-stats">18M views &middot; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumnail-box">
+          <img class="thumnail" src="./thumnails/thumbnail-5.webp" />
+        </div>
+        <div class="description-box">
+          <div class="profile-image">
+            <img class="chanel-picture" src="./profile-images/channel-5.jpeg" />
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">CS Dojo</p>
+            <p class="video-stats">519K views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumnail-box">
+          <img class="thumnail" src="./thumnails/thumbnail-6.webp" />
+        </div>
+        <div class="description-box">
+          <div class="profile-image">
+            <img class="chanel-picture" src="./profile-images/channel-6.jpeg" />
+          </div>
+          <div class="video-text">
+            <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+            <p class="video-author">MrBeast</p>
+            <p class="video-stats">141M views &middot; 1 year ago</p>
+          </div>
         </div>
       </div>
     </div>
