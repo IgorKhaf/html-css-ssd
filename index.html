@@ -8,60 +8,21 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Outfit:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <style>
-      .search-bar {
-        display: block;
-      }
-
-      .video-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;
-      }
-      .thumnail {
-        width: 100%;
-      }
-
-      .thumnail-box {
-        margin-bottom: 12px;
-      }
-      .description-box {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .chanel-picture {
-        width: 40px;
-        border-radius: 50%;
-      }
-
-      p {
-        font-family: "Roboto", Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .video-title {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-      .video-author {
-        font-size: 12px;
-        color: rgb(96, 96, 96);
-        margin-bottom: 4px;
-      }
-      .video-stats {
-        font-size: 12px;
-        color: rgb(96, 96, 96);
-      }
-    </style>
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/video.css"
+    />
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="Search" />
+    <div class="header">
+      <div class="left-section">left section</div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+      </div>
+      <div class="right-section">right section</div>
+    </div>
 
     <div class="video-grid">
       <div class="video-preview">
@@ -161,7 +122,9 @@
             <img class="chanel-picture" src="./profile-images/channel-6.jpeg" />
           </div>
           <div class="video-text">
-            <p class="video-title">Anything You Can Fit In The Circle I'll Pay For</p>
+            <p class="video-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
             <p class="video-author">MrBeast</p>
             <p class="video-stats">141M views &middot; 1 year ago</p>
           </div>
