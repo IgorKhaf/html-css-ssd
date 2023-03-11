@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  background-color: lightblue;
+  width: 50px;
+
+}
+.middle {
+  background-color: lightpink;
+  flex: 1;
+}
+.right {
+  background-color: lightblue;
+  width: 75px;
+}
