@@ -7,6 +7,7 @@
   align-items: center;
   width: 300px;
   margin-bottom: 10px;
+  justify-content: space-between;
 }
 .profile-image-box {
   width: 50px;
