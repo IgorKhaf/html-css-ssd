@@ -1,0 +1,41 @@
+.container {
+  margin: 100px auto;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.profile-image-box {
+  width: 50px;
+}
+.profile-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.description-box {
+  flex:1;
+}
+p {
+  margin: 4px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+  font-weight: bold;
+}
+.description, .status {
+  color:rgb(100, 100, 100)
+}
+.follow {
+  background-color: rgb(64 147 239);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
