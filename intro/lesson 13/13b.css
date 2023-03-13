@@ -1,0 +1,21 @@
+.container {
+  height: 50px;
+  display: flex;
+}
+.right-element {
+  width: 100px;
+  background-color: lightpink;
+}
+.left-element {
+  width: 200px;
+  background-color: lightblue;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2-item {
+  background-color: black;
+  color: white;
+}
