@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.container {
+  margin: 100px auto;
+  padding: 10px 15px;
+  width: 400px;
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.label {
+  font-size: 0.8rem;
+  color: rgb(128 128 128);
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sender-pic-container {
+  margin-right: 10px;
+}
+.sender-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.message-preview {
+  flex: 1;
+}
+.first-line {
+  display: flex;
+  flex-direction: row;
+}
+.sender-name {
+  flex: 1;
+  font-weight: bold;
+}
+.sent-time {
+  color: rgb(128 128 128);
+  font-size: 0.8rem;
+}
+.subject {
+  margin-top: 4px;
+  font-weight: bold;
+}
+.message {
+  color: rgb(128 128 128);
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
