@@ -1,0 +1,18 @@
+body {
+  height: 3000px;
+}
+div {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 45px;
+  width: 45px;
+  font-size: 20px;
+  font-family: Arial;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
