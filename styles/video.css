@@ -21,7 +21,13 @@
   width: 36px;
   border-radius: 50%;
 }
-
+.video-text a {
+  text-decoration: none;
+  color: black;
+}
+.video-text a:visited {
+  color: black;
+}
 .video-title {
   margin-top: 0;
   font-weight: 500;
