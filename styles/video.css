@@ -16,11 +16,51 @@
   display: grid;
   grid-template-columns: 50px 1fr;
 }
+.profile-picture-container {
+  display: inline-block;
+  position: relative;
+  
+}
+.profile-picture-container .chanel-preview-container {
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+.chanel-preview-picture img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.profile-picture-container:hover .chanel-preview-container {
+  opacity: 1;
+}
+.chanel-preview-name {
+  color: black;
+  white-space: nowrap;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.chanel-preview-subscribers {
+  font-family: Roboto, Arial;
+  margin-left: 8px;
+  color: gray;
+}
 
 .chanel-picture {
   width: 36px;
   border-radius: 50%;
 }
+
 .video-text a {
   text-decoration: none;
   color: black;
