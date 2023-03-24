@@ -23,8 +23,9 @@
 }
 .profile-picture-container .chanel-preview-container {
   padding: 10px;
+  width: 200px;
   display:flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   position: absolute;
   opacity: 0;
@@ -33,10 +34,13 @@
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   pointer-events: none;
+  z-index: 200;
 }
 .chanel-preview-picture img {
   height: 50px;
+  width: 50px;
   border-radius: 50%;
+  margin-right: 8px;
 }
 
 
@@ -48,12 +52,14 @@
   white-space: nowrap;
   font-family: Roboto, Arial;
   font-weight: bold;
-  margin-left: 8px;
+  /* margin-left: 8px; */
+  font-size: 1rem;
 }
 .chanel-preview-subscribers {
   font-family: Roboto, Arial;
-  margin-left: 8px;
+  /* margin-left: 8px; */
   color: gray;
+  font-size: 14px;
 }
 
 .chanel-picture {
